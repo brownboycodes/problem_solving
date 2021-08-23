@@ -1,0 +1,35 @@
+<div id="left"></div>
+<div id="right"></div>
+<style>
+  body {
+    background: #aa445f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #left {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border-top: 100px solid #f7ec7d;
+    border-right: 100px solid transparent;
+    border-left: 100px solid #f7ec7d;
+    border-bottom: 100px solid transparent;
+    transform: rotate(-45deg);
+    position: relative;
+    left: 75px;
+  }
+  #right {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #e38f66;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #e38f66;
+    transform: rotate(-45deg);
+    position: relative;
+    right: 75px;
+  }
+</style>
