@@ -12,7 +12,8 @@ Otherwise, discard the card.
 The score of the game is the number of cards in your hand at the end. With the given number of cards N, what is the expected score of the game?
 
 Input
-The first line of the input contains the number of test cases, T. T lines follow. Each line contains a single integer N, the number of cards in the pile.
+The first line of the input contains the number of test cases, T. T lines follow. 
+Each line contains a single integer N, the number of cards in the pile.
 
 Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the expected score at the end of the game.
